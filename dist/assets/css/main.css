@@ -372,6 +372,9 @@ h4 {
 .main-slider-btn img {
   width: 100%;
 }
+.main-slider-item img {
+  width: 100%;
+}
 .main-prev-btn {
   left: 0;
 }
@@ -512,7 +515,6 @@ h4 {
   opacity: 0.6;
   font-family: 'Circe Extra Bold', sans-serif;
   margin-left: 4rem;
-  appearance: none;
   border: none;
   display: block;
   font-size: 1.9rem;
@@ -843,11 +845,17 @@ h4 {
   background-color: #f7e7e6;
   padding: 9rem 0;
 }
+.feedback-slider {
+  height: 400px;
+}
 .feedback-slider-item {
   padding-bottom: 5rem;
 }
 .feedback-block {
   position: relative;
+}
+.feedback-block img {
+  width: 100%;
 }
 .feedback-block .button-order {
   position: absolute;
@@ -1581,6 +1589,9 @@ h4 {
   }
   .card-3 img {
     float: right;
+  }
+  .feedback-slider {
+    height: auto;
   }
   .feedback-slider-item {
     padding-bottom: 0;
